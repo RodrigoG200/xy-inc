@@ -1,0 +1,26 @@
+@charset "UTF-8";
+
+
+form {
+    width: 500px;
+    margin: auto;
+}
+
+legend {
+    color: #888888;
+    font-weight: bold;
+    font-size: 13pt;
+    font-family: sans-serif;
+}
+
+fieldset {
+    border-color: #cecece;
+    margin: 80px;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+
+.search {
+    position: relative;
+    left: 90px;
+}

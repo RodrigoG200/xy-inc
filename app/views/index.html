@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8"/>
+        <title>Desafio Back END - ZUP</title>
+        <link type="text/html" rel="stylesheet" href="../assets/style-css.css">
+        
+    </head>
+    <body>
+        <form action="http://localhost:3000/sendPoi" method="POST">
+            <fieldset>
+                <legend>Consulte sua posição atual:</legend>
+                <p><label for="xCod">Coordenadas x:</label>
+                    <input id="xCod" type="text" name="cordX"/>
+                </p>
+                <p><label for="yCod">Coordenadas y:</label>
+                    <input id="yCod" type="text" name="cordY"/>
+                </p>
+                <button type="submit">consultar</button>
+            </fieldset>
+        </form>
+    </body>
+</html>
